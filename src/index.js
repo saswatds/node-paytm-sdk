@@ -9,8 +9,8 @@ class Paytm {
     assert(merchantKey, 'Merchant Key is an mandatory parameter')
     this.merchantKey = merchantKey
     const defaultOptions = {
-      generatePath: 'checksum/generate',
-      verifyPath: 'checksum/verify',
+      generatePath: '/checksum/generate',
+      verifyPath: '/checksum/verify',
       handleError: false
     }
     this.options = _.merge(defaultOptions, options)
