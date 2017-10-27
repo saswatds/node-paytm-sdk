@@ -1,0 +1,15 @@
+{
+  "name": "node-paytm-sdk",
+  "version": "0.0.0",
+  "description": "Unofficial Node.JS SDK for Paytm Integration",
+  "main": "index.js",
+  "repository": "git@github.com:saswatds/node-paytm-sdk.git",
+  "author": "Saswat <saswatds@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "express": "^4.16.2"
+  }
+}
