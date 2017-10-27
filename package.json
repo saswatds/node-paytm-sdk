@@ -1,5 +1,5 @@
 {
-  "name": "node-paytm-sdk",
+  "name": "paytm-sdk",
   "version": "0.0.0",
   "description": "Unofficial Node.JS SDK for Paytm Integration",
   "main": "index.js",
