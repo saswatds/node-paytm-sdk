@@ -1,6 +1,6 @@
 {
   "name": "paytm-sdk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Unofficial Node.JS SDK for Paytm Integration",
   "main": "index.js",
   "scripts": {
