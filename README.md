@@ -47,10 +47,13 @@ This is route where you can send a POST request to verify checksum. The default 
 
 ##### handleError 
 
-Set this tri true if you do not want to handle the error condition, instead want the library to send 500 for checksum generation failure and 400 for incorrect checksum
+Set this to true if you do not want to handle the error condition, instead want the library to send 500 for checksum generation failure and 400 for incorrect checksum
 
 
 ## Release Notes
+
+| Release | Notes |
+| --- | --- |
 | 0.0.1 | Priliminary release |
 
 ## Licence
