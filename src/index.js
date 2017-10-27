@@ -9,8 +9,8 @@ class Paytm {
     assert(merchantKey, 'Merchant Key is an mandatory parameter')
     this.merchantKey = merchantKey
     const defaultOptions = {
-      generatePath: '/checksum/generate',
-      verifyPath: '/checksum/verify',
+      generateRoute: '/checksum/generate',
+      verifyRoute: '/checksum/verify',
       handleError: false
     }
     this.options = _.merge(defaultOptions, options)
@@ -46,8 +46,8 @@ class Paytm {
       throw err
     }
     const router = express.Router()
-    router.post(this.options.generatePath, this.generateChecksum())
-    router.post(this.options.verifyPath, this.verifyChecksum())
+    router.post(this.options.generateRoute, this.generateChecksum())
+    router.post(this.options.verifyRoute, this.verifyChecksum())
     return router
   }
 
