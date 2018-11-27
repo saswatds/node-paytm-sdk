@@ -19,10 +19,10 @@
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "chai-http": "^3.0.0",
-    "eslint": "^4.9.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.9.0",
     "express": "^4.16.2",
-    "mocha": "^4.0.1",
-    "standard": "^10.0.3"
+    "mocha": "^5.2.0",
+    "standard": "^12.0.1"
   }
 }
