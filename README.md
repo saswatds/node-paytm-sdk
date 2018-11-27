@@ -1,5 +1,5 @@
 # NodeJS Paytm Checksum SDK
-[![npm version](https://badge.fury.io/js/paytm-sdk.svg)](https://badge.fury.io/js/paytm-sdk) [![Dependency Status](https://gemnasium.com/badges/github.com/saswatds/node-paytm-sdk.svg)](https://gemnasium.com/github.com/saswatds/node-paytm-sdk)
+[![npm version](https://badge.fury.io/js/paytm-sdk.svg)](https://badge.fury.io/js/paytm-sdk) [![Dependency Status](https://gemnasium.com/badges/github.com/saswatds/node-paytm-sdk.svg)](https://gemnasium.com/github.com/saswatds/node-paytm-sdk) [![Greenkeeper badge](https://badges.greenkeeper.io/saswatds/node-paytm-sdk.svg)](https://greenkeeper.io/)
 
 
 Unofficial Node.JS SDK for Paytm Checksum Generation and Verification
