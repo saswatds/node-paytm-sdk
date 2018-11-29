@@ -1,0 +1,28 @@
+{
+  "name": "paytm-sdk",
+  "version": "0.0.2",
+  "description": "Unofficial Node.JS SDK for Paytm Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha --exit -R spec test/**/*.spec.js"
+  },
+  "repository": "git@github.com:saswatds/node-paytm-sdk.git",
+  "author": "Saswat <saswatds@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.9.0",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3"
+  }
+}
